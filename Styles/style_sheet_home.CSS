@@ -1,33 +1,70 @@
 body {background-color: black; color: white;}
 h1{font-family:Arial, Helvetica, sans-serif;}
-p{font-family: Georgia, 'Times New Roman', Times, serif;}
+p{font-family:Georgia, 'Times New Roman', Times, serif;}
 
 .small-headshot {
-    max-width: 15%;
+    max-width: 33%;
     height: auto;
     border-radius: 3%;
 }
 
-.move-down{
+.project-img{
+    height: 200px;
+    max-width: 100%;
+    border-radius: 3%;
+    border-color: white;
+}
+
+.home-blurb{
     padding: 70px;
 }
 
-a:link{
-    color:maroon;
-    text-decoration: none;
+.home-blurb p{
+    max-width: 50%;
 }
-a:visited{
-    color:maroon;
+
+.styled-link {
+    font-family: Arial, Helvetica, sans-serif;
 }
-a:hover{
-    color:white;
+
+.styled-link a{
+    width:100%;
+}
+
+.styled-link a:link{
+    color: maroon;
+}
+.styled-link a:hover {
+    color: white;
+}
+.styled-link a:visited{
+    color:maroon;
 }
 
 .navbar {
-    width: 100%
+    width: 100%;
 }
-
 .navbar a{
     float:left;
     width: 25%;
+}
+.navbar a:link{
+    color:maroon;
+    text-decoration: none;
+}
+.navbar a:visited{
+    color:maroon;
+}
+.navbar a:hover{
+    color:white;
+}
+
+.three-sections{
+    float: left;
+    width: 33%;
+    height: auto;
+}
+
+.three-sections p{
+    max-width: 80%;
 }
