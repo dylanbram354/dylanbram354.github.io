@@ -1,7 +1,9 @@
 body {
     background-image: url("../assets/wood_background.jpg");
+    background-position: center;
+    background-size: cover;
     height: 100%;
-    color: white;}
+    color: whitesmoke;}
 h1{font-family:Arial, Helvetica, sans-serif;}
 h2{font-family: Arial, Helvetica, sans-serif;font-size: 90%}
 p{font-family:Georgia, 'Times New Roman', Times, serif;}
@@ -27,11 +29,11 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
 }
 
     .navbar a:link{
-        color:white;
+        color:whitesmoke;
         text-decoration: underline;
     }
     .navbar a:visited{
-        color:white;
+        color:whitesmoke;
     }
     .navbar a:hover{
         color:maroon;
@@ -63,11 +65,10 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
 }
 
     .styled-link a:link{
-        color:grey;
-        text-decoration: none;
+        color:whitesmoke;
     }
     .styled-link a:visited{
-        color:grey;
+        color:whitesmoke;
     }
     .styled-link a:hover {
         color: maroon;
@@ -145,7 +146,7 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
 
 .project-link{
     display: grid;
-    place-content: center;;
+    place-content: center;
 }
 
 /*CONTACT PAGE*/
