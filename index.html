@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Hi, I'm Dylan.
-        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="Portfolio site for Dylan Bram" content="Dylan Bram's first web development project. Will also serve as a professional portfolio site
         for reference to potential employers.">
         <link rel="stylesheet" type="text/css" href="Styles/style_sheet_home.CSS">
+        <title>
+            Hi, I'm Dylan.
+        </title>
     </head>
-    <nav class="navbar">
-        <center>
-            <h1>
-            <a href = "index.html">Home </a>
-            <a href="About Me.html">About Me</a>
-            <a href="Projects.html">Projects</a>
-            <a href="Contact.html">Contact</a>
-            </h1>
-        </center>
-    </nav>
     <body>
-        <div class="home-blurb"><!-- How to center vertically on page?-->
+        <header>
+            <nav>
+                <center>
+                    <ul class="navbar">
+                        <li class="nav-list__item"><a href = "index.html">Home </a></li>
+                        <li class="nav-list__item"><a href="About Me.html">About Me</a></li>
+                        <li class="nav-list__item"><a href="Projects.html">Projects</a></li>
+                        <li class="nav-list__item"><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </center>
+            </nav>
+        </header>
+        <div class = "move-down"><!-- How to center vertically on page?-->
             <center>
-                <img class="small-headshot" src="Headshot.jpg">
+                <img class="small-headshot" src="assets/Headshot.jpg" alt="Dylan Bram headshot"><!-- Where is this picture???-->
                 <h1>
                     Hi, I'm Dylan.
                 </h1>
-                <p>
+                <p style = "max-width: 50%;">
                     I'm a lifelong musician making a career transition to become a full-stack developer. 
-                    I am currently enrolled in devCodeCamp's full-time software development program, expecting to graduate on August 3.
+                    I'm currently enrolled in devCodeCamp's full-time software development program, expecting to graduate on August 3.
                 </p>
                 <h3 class="styled-link">
                     <a href="Contact.html">Get In Touch</a>
@@ -35,11 +39,10 @@
             </center>
         </div>
     </body>
-    <footer class="navbar">
-        <center>
-        <p>
-            Additional links?
-        </p>
+    <footer class="footer">
+        <center class="styled-link" >
+            <a href="">Additional links?</a>
         </center>
     </footer>
 </html>
+

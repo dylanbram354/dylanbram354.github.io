@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Styles/style_sheet_home.CSS">
         <title>
             Projects
         </title>
-        <link rel="stylesheet" type="text/css" href="Styles/style_sheet_home.CSS">
     </head>
-    <nav class = "navbar">
-        <center>
-            <h1>
-            <a href = "index.html">Home </a>
-            <a href="About Me.html">About Me</a>
-            <a href="Projects.html">Projects</a>
-            <a href="Contact.html">Contact</a>
-            </h1>
-        </center>
-    </nav>
     <body>
-        <style>
-            div {padding: 70px}
-        </style>
-        <div>
-            <center>
-                <section class="three-sections">
-                    <img class="project-img" src="Day-Trip.jpg">
-                    <h1>
-                        <a href="https://github.com/dylanbram354/Day_Trip_Generator.git">Day Trip Generator</a>
+        <header>
+            <nav>
+                <center>
+                    <ul class="navbar">
+                        <li class="nav-list__item"><a href = "index.html">Home </a></li>
+                        <li class="nav-list__item"><a href="About Me.html">About Me</a></li>
+                        <li class="nav-list__item"><a href="Projects.html">Projects</a></li>
+                        <li class="nav-list__item"><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </center>
+            </nav>
+        </header>
+        <div class="move-down">
+            <ul class="hide-bullets" class="float-left">
+                <li class="three-sections">
+                    <img class="project-img" src="assets/Day-Trip.jpg" alt="Day Trip image">
+                    <h1 class="styled-link">
+                        <a class="project-link" href="https://github.com/dylanbram354/Day_Trip_Generator.git">Day Trip Generator</a>
                     </h1>
-                    <p>My first project for devCodeCamp, Day Trip Generator uses Javascript to randomly generate plans for a "day trip". 
+                    <p class = "project-txt" class="center-stuff">My first project for devCodeCamp, Day Trip Generator uses Javascript to randomly generate plans for a "day trip". 
                         Users have the opportunity to accept this plan, or they can select various elements of the trip that they would like to change.</p>
-                </section>
-                <section class="three-sections">
-                    <img class="project-img" src="Coming Soon.jpg">
-                    <p>More projects coming soon!</p>
-                </section>
-                <section class="three-sections">
-                    <img class="project-img" src="Coming Soon.jpg">
-                    <p>More projects coming soon!</p>
-                </section>
-            </center>
+                </li>
+                <li class="three-sections">
+                    <img class="project-img" src="assets/Coming Soon.jpg" alt="Coming soon!">
+                    <p class="project-txt">More projects coming soon!</p>
+                </li>
+                <li class="three-sections">
+                    <img class="project-img" src="assets/Coming Soon.jpg" alt="Coming soon!">
+                    <p class="project-txt">More projects coming soon!</p>
+                </li>
+            </ul>
         </div>
+        <!-- How can I add more porjects to this and make them appear as another row?-->
     </body>
 </html>

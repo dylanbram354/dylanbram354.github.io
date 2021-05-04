@@ -1,70 +1,110 @@
-body {background-color: black; color: white;}
-h1{font-family:Arial, Helvetica, sans-serif;}
-p{font-family:Georgia, 'Times New Roman', Times, serif;}
-
-.small-headshot {
-    max-width: 33%;
-    height: auto;
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
     border-radius: 3%;
+}
+
+.nav-list__item{
+    float:left;
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+    .navbar a:link{
+        color:white;
+        text-decoration: underline;
+    }
+    .navbar a:visited{
+        color:white;
+    }
+    .navbar a:hover{
+        color:maroon;
+    }
+
+
+.hide-bullets{
+    list-style-type: none;
+}
+
+.float-left{
+    float: left;
+}
+
+
+.three-sections{
+    float: left;
+    width: 33%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    place-content: center;
 }
 
 .project-img{
     height: 200px;
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 3%;
-    border-color: white;
+    margin: 0 auto;
 }
 
-.home-blurb{
+.project-txt{
+    max-width: 80%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.project-link{
+    display: grid;
+    place-content: center;;
+}
+
+
+body {
+    background-image: url("../assets/wood_background.jpg");
+    height: 100%;
+    color: white;}
+h1{font-family:Arial, Helvetica, sans-serif;}
+h2{font-family: Arial, Helvetica, sans-serif;font-size: 90%}
+p{font-family:Georgia, 'Times New Roman', Times, serif;}
+
+.move-down{
     padding: 70px;
 }
 
-.home-blurb p{
-    max-width: 50%;
+.small-headshot {
+    width: 33%;
+    height: auto;
+    border-radius: 3%;
 }
 
 .styled-link {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.styled-link a{
-    width:100%;
-}
+    .styled-link a:link{
+        color:grey;
+        text-decoration: none;
+    }
+    .styled-link a:visited{
+        color:grey;
+    }
+    .styled-link a:hover {
+        color: maroon;
+    }
 
-.styled-link a:link{
-    color: maroon;
-}
-.styled-link a:hover {
-    color: white;
-}
-.styled-link a:visited{
-    color:maroon;
-}
-
-.navbar {
-    width: 100%;
-}
-.navbar a{
-    float:left;
-    width: 25%;
-}
-.navbar a:link{
-    color:maroon;
-    text-decoration: none;
-}
-.navbar a:visited{
-    color:maroon;
-}
-.navbar a:hover{
-    color:white;
-}
-
-.three-sections{
-    float: left;
-    width: 33%;
-    height: auto;
-}
-
-.three-sections p{
-    max-width: 80%;
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    left: 40%;
+    text-align: center;
 }
