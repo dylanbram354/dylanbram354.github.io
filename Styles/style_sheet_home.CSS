@@ -15,6 +15,7 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
     position: absolute; /*this should make it 'sticky' but doesn't work?*/
     top: 0;
     width: 100%;
+    background-color: black;
 }
 
 .nav-list__item{
@@ -104,6 +105,12 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
     border-radius: 3%;
 }
 
+.title{
+    text-align:center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /* PROJECT PAGE */
 
 /* create 3 columns for project page*/
@@ -131,7 +138,7 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
 }
 
 .project-img{
-    height: 200px;
+    height: 250px;
     max-width: 90%;
     border-radius: 3%;
     margin: 0 auto;
@@ -142,6 +149,7 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
     display: inline-block;
     margin: auto;
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .project-link{
