@@ -1,11 +1,18 @@
+body {
+    background-image: url("../assets/wood_background.jpg");
+    height: 100%;
+    color: white;}
+h1{font-family:Arial, Helvetica, sans-serif;}
+h2{font-family: Arial, Helvetica, sans-serif;font-size: 90%}
+p{font-family:Georgia, 'Times New Roman', Times, serif;}
+
 .navbar {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    position: absolute;
+    position: absolute; /*this should make it 'sticky' but doesn't work?*/
     top: 0;
     width: 100%;
-    border-radius: 3%;
 }
 
 .nav-list__item{
@@ -16,6 +23,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
 
     .navbar a:link{
@@ -46,52 +54,8 @@
     float: left;
 }
 
-
-.three-sections{
-    float: left;
-    width: 33%;
-    height: auto;
-    margin: auto;
-    display: grid;
-    place-content: center;
-}
-
-.project-img{
-    height: 200px;
-    max-width: 90%;
-    border-radius: 3%;
-    margin: 0 auto;
-}
-
-.project-txt{
-    max-width: 80%;
-    display: inline-block;
-    margin: auto;
-    text-align: center;
-}
-
-.project-link{
-    display: grid;
-    place-content: center;;
-}
-
-
-body {
-    background-image: url("../assets/wood_background.jpg");
-    height: 100%;
-    color: white;}
-h1{font-family:Arial, Helvetica, sans-serif;}
-h2{font-family: Arial, Helvetica, sans-serif;font-size: 90%}
-p{font-family:Georgia, 'Times New Roman', Times, serif;}
-
 .move-down{
-    padding: 70px;
-}
-
-.small-headshot {
-    width: 33%;
-    height: auto;
-    border-radius: 3%;
+    margin-top: 10%;
 }
 
 .styled-link {
@@ -114,8 +78,77 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
     bottom: 0;
     width: 20%;
     left: 40%;
+    margin-left:auto;
+    margin-right:auto;
     text-align: center;
 }
+
+/* HOME PAGE */
+.home-content{
+    margin-top:10%;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.home-content p{
+    margin:auto;
+    max-width:50%;
+}
+
+.small-headshot {
+    width: 33%;
+    height: auto;
+    border-radius: 3%;
+}
+
+/* PROJECT PAGE */
+
+/* create 3 columns for project page*/
+.three-sections{
+    float: left;
+    width: 33%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    place-content: center;
+}
+
+/*insert between column divs to "reset" float*/
+.row{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width: 600px){
+    .three-sections{
+        width: 100%;
+        margin-top:5%;
+    }
+}
+
+.project-img{
+    height: 200px;
+    max-width: 90%;
+    border-radius: 3%;
+    margin: 0 auto;
+}
+
+.project-txt{
+    max-width: 80%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.project-link{
+    display: grid;
+    place-content: center;;
+}
+
+/*CONTACT PAGE*/
 
 .contact-content{
     margin-top:10%;
