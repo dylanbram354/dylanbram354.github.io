@@ -38,6 +38,14 @@
     float: left;
 }
 
+.mail-img{
+    margin-right: 10%;
+    width: 50%;
+    height: auto;
+    border-radius: 3%;
+    float: left;
+}
+
 
 .three-sections{
     float: left;
@@ -106,5 +114,13 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;}
     bottom: 0;
     width: 20%;
     left: 40%;
+    text-align: center;
+}
+
+.contact-content{
+    margin-top:10%;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
     text-align: center;
 }
