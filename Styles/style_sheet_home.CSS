@@ -17,7 +17,7 @@ a:visited{
     color:whitesmoke;
 }
 a:hover{
-    color:maroon;
+    color:#810808e5;
 }
 
 .navbar {
@@ -147,7 +147,7 @@ a:hover{
 .img-right{
     float:right;
     width: 33%;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-bottom: 10px;
     height: auto;
     border-radius: 3%;
